@@ -40,3 +40,6 @@ file (i.e. the right side with the `sofle_right-nice_nano_v2-zmk.uf2` file), you
 
 **Note:** Some operating systems may show a failure when the keyboard reboots, or the USB drive may disappear. This is normal and the keyboard should be flashed successfully.
 The keyboard flashing has been confirmed to work successfully on Windows 10, and Linux. 
+
+### Modifying the layout
+A good online editor is here: https://nickcoutsos.github.io/keymap-editor/
