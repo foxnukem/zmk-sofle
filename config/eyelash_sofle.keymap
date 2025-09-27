@@ -73,7 +73,7 @@
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_N8  &kp KP_N9  &trans     &kp F11      &kp F12
 &trans     &out OUT_USB  &out OUT_BLE    &trans        &trans           &rgb_ug RGB_TOG    &mmv MOVE_LEFT   &kp KP_N4        &kp KP_N5  &kp KP_N6  &trans     &bootloader  &trans
 &trans     &sys_reset    &bootloader     &trans        &trans           &trans             &mmv MOVE_RIGHT  &kp KP_N1        &kp KP_N2  &kp KP_N3  &trans     &sys_reset   &soft_off
-&trans     &trans        &trans          &trans        &trans           &trans             &mkp LCLK        &trans           &trans     &trans     &kp KP_N0  &trans
+&trans     &trans        &trans          &trans        &trans           &trans             &mkp LCLK        &trans           &trans     &trans     &kp KP_N0  &kp KP_NUM
             >;
 
             sensor-bindings = <&scroll_encoder>;
