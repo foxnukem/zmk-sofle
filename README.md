@@ -43,3 +43,6 @@ The keyboard flashing has been confirmed to work successfully on Windows 10, and
 
 ### Modifying the layout
 A good online editor is here: https://nickcoutsos.github.io/keymap-editor/
+
+### Soft-off functionality
+If soft-off is initiated by the preset button on the layout, the keyboard should enter a deep sleep slate and cannot by awakened by pressing the keys. This function can be used for carrying it outside. In order to activate the keyboard, the reset button should be clicked once.
