@@ -194,4 +194,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - KP 0
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUM
