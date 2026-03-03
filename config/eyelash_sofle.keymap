@@ -69,11 +69,11 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans    &msc SCRL_UP     &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &msc SCRL_DOWN   &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &msc SCRL_LEFT   &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &msc SCRL_RIGHT  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &mkp MCLK        &trans  &trans     &trans     &trans     &trans
+&kp TILDE  &trans  &trans     &trans     &trans     &trans    &msc SCRL_UP     &trans  &trans     &trans     &trans     &trans  &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &msc SCRL_DOWN   &trans  &trans     &trans     &trans     &trans  &trans
+&trans     &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &msc SCRL_LEFT   &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &msc SCRL_RIGHT  &trans  &trans     &trans     &trans     &trans  &trans
+&trans     &trans  &trans     &trans     &trans     &trans    &mkp MCLK        &trans  &trans     &trans     &trans     &trans
             >;
 
             label = "MOUSE";
