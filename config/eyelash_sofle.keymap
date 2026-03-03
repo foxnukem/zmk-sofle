@@ -79,5 +79,26 @@
             sensor-bindings = <&scroll_encoder>;
             label = "MISC";
         };
+
+        MOUSE {
+            bindings = <
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans
+            >;
+
+            label = "MOUSE";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        MOUSE_ACTIVE {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
     };
 };
